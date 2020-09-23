@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <launch>
   <arg name="addr" default="" />
+  <arg name="backend" default="hidraw" />
 
   <node pkg="ds4_driver" type="demo.py" name="demo" />
 
